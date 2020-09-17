@@ -50,9 +50,6 @@ def install_lib():
 
 
 def start():
-    '''
-    This is a function
-    '''
     first = pyautogui.confirm(text="What do you want to do?", title="Python tools", buttons=[
                               "Upgrade pip", "My python version", "Installing library", "Exit"])
 
